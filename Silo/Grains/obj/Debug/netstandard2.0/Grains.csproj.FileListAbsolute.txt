@@ -1,0 +1,16 @@
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\Grains.deps.json
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\Grains.dll
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\Grains.pdb
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\GrainInterfaces.dll
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\GrainInterfaces.pdb
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.csprojAssemblyReference.cache
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.csproj.OrleansCodeGenInputs.cache
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.cs
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.csproj.CoreCompileInputs.cache
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfoInputs.cache
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfo.cs
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.csproj.CopyComplete
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.dll
+D:\GitHub\wcOrleans\Silo\Grains\obj\Debug\netstandard2.0\Grains.pdb
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\Model.dll
+D:\GitHub\wcOrleans\Silo\Grains\bin\Debug\netstandard2.0\Model.pdb
