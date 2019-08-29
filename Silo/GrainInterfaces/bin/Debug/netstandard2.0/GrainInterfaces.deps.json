@@ -9,8 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "GrainInterfaces/1.0.0": {
         "dependencies": {
-          "Microsoft.Orleans.CodeGenerator.MSBuild": "2.3.5",
-          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
+          "Microsoft.Orleans.CodeGenerator.MSBuild": "2.3.6",
+          "Microsoft.Orleans.Core.Abstractions": "2.3.6",
           "Model": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -20,8 +20,8 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {},
-      "Microsoft.Orleans.Core.Abstractions/2.3.5": {
+      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {},
+      "Microsoft.Orleans.Core.Abstractions/2.3.6": {
         "dependencies": {
           "System.Memory": "4.5.1",
           "System.Runtime.Serialization.Formatters": "4.3.0"
@@ -197,19 +197,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
+    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+Gp8Z2H/YoyM6XhC6b+KH31kWxjRi3AV0jH4sF+m0yU4K9ScADHs87Zqa1/9WIAucEDaovaymIAXavM6DezYxg==",
-      "path": "microsoft.orleans.codegenerator.msbuild/2.3.5",
-      "hashPath": "microsoft.orleans.codegenerator.msbuild.2.3.5.nupkg.sha512"
+      "sha512": "sha512-trTbkyaMO221UwoqUSPtM4AM+T3656ZfJr8TJYURZU+xnlP2u5/DOi5Lmz2ye7nh0PQOkx/NwfyvSESQXsEXZw==",
+      "path": "microsoft.orleans.codegenerator.msbuild/2.3.6",
+      "hashPath": "microsoft.orleans.codegenerator.msbuild.2.3.6.nupkg.sha512"
     },
-    "Microsoft.Orleans.Core.Abstractions/2.3.5": {
+    "Microsoft.Orleans.Core.Abstractions/2.3.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uqoqIUs3wIF9DmIOw3jVMUxfHktjQMzEvSY7Glji+z/drnSW0J1xOthgXjsqEFMVsV0TqbzIOnAIvYgCEiLbaA==",
-      "path": "microsoft.orleans.core.abstractions/2.3.5",
-      "hashPath": "microsoft.orleans.core.abstractions.2.3.5.nupkg.sha512"
+      "sha512": "sha512-Kv6D/InkwEHQEQ10UJhIjm04xslVL5dSXB6dw4TLAEWSQrkD4VODW7PBmMJQ9oS8VRMkMlc9w5aIXCgGJcgViQ==",
+      "path": "microsoft.orleans.core.abstractions/2.3.6",
+      "hashPath": "microsoft.orleans.core.abstractions.2.3.6.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

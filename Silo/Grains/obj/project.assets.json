@@ -162,7 +162,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview7.19362.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -230,7 +230,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
+      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {
         "type": "package",
         "build": {
           "build/Microsoft.Orleans.CodeGenerator.MSBuild.targets": {}
@@ -239,7 +239,7 @@
           "buildMultiTargeting/Microsoft.Orleans.CodeGenerator.MSBuild.targets": {}
         }
       },
-      "Microsoft.Orleans.Core/2.3.5": {
+      "Microsoft.Orleans.Core/2.3.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -248,7 +248,7 @@
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
           "Microsoft.Extensions.Logging": "2.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.1",
-          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
+          "Microsoft.Orleans.Core.Abstractions": "2.3.6",
           "Newtonsoft.Json": "10.0.3",
           "System.Collections.Immutable": "1.4.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
@@ -279,7 +279,7 @@
           "lib/netstandard2.0/Orleans.Core.dll": {}
         }
       },
-      "Microsoft.Orleans.Core.Abstractions/2.3.5": {
+      "Microsoft.Orleans.Core.Abstractions/2.3.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.1",
@@ -292,12 +292,12 @@
           "lib/netstandard2.0/Orleans.Core.Abstractions.dll": {}
         }
       },
-      "Microsoft.Orleans.Runtime.Abstractions/2.3.5": {
+      "Microsoft.Orleans.Runtime.Abstractions/2.3.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
           "Microsoft.Extensions.Options": "2.1.1",
-          "Microsoft.Orleans.Core": "2.3.5"
+          "Microsoft.Orleans.Core": "2.3.6"
         },
         "compile": {
           "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll": {}
@@ -1686,7 +1686,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
+          "Microsoft.Orleans.Core.Abstractions": "2.3.6",
           "Model": "1.0.0"
         },
         "compile": {
@@ -1906,16 +1906,16 @@
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
-      "sha512": "1iYT6BAnJZGebfclQXiM/drK+JUztSikkpT3xcASBQW4og877bsXtjqrMM4EI71nf8UVtvHt6O8pMdYDEE8/Lw==",
+    "Microsoft.Extensions.Logging.Abstractions/3.0.0-preview7.19362.4": {
+      "sha512": "8IOxqipPWDiME9Wo8uFQx9q8zPM7KOKgQOlZfxh4cDzf8NqK0oB12hfZXW0fU4EMJbR6cEmn9Wopewfrn76r8Q==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "path": "microsoft.extensions.logging.abstractions/3.0.0-preview7.19362.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.0.0-preview7.19362.4.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
@@ -1988,16 +1988,16 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
-      "sha512": "+Gp8Z2H/YoyM6XhC6b+KH31kWxjRi3AV0jH4sF+m0yU4K9ScADHs87Zqa1/9WIAucEDaovaymIAXavM6DezYxg==",
+    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {
+      "sha512": "trTbkyaMO221UwoqUSPtM4AM+T3656ZfJr8TJYURZU+xnlP2u5/DOi5Lmz2ye7nh0PQOkx/NwfyvSESQXsEXZw==",
       "type": "package",
-      "path": "microsoft.orleans.codegenerator.msbuild/2.3.5",
+      "path": "microsoft.orleans.codegenerator.msbuild/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Microsoft.Orleans.CodeGenerator.MSBuild.targets",
         "buildMultiTargeting/Microsoft.Orleans.CodeGenerator.MSBuild.targets",
-        "microsoft.orleans.codegenerator.msbuild.2.3.5.nupkg.sha512",
+        "microsoft.orleans.codegenerator.msbuild.2.3.6.nupkg.sha512",
         "microsoft.orleans.codegenerator.msbuild.nuspec",
         "tasks/netcoreapp2.0/Microsoft.Build.Framework.dll",
         "tasks/netcoreapp2.0/Microsoft.Build.Tasks.Core.dll",
@@ -2042,45 +2042,45 @@
         "tasks/netcoreapp2.0/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll"
       ]
     },
-    "Microsoft.Orleans.Core/2.3.5": {
-      "sha512": "AkempfL2Y+MSJ4Ih7H67Eh4C2EAZ/JByOKHDlQdspDCHRQZLXhaIpPr/LczSOUm3wk5Q7A7PksU+GRi4jdq0hQ==",
+    "Microsoft.Orleans.Core/2.3.6": {
+      "sha512": "8fo08DSUKqTMj80Qw4K0pQUczx7poGIVK6PW5ae9Zraxz4IhMVd+U7W8dJALMcCxow4XJo80G4o6+VeERtYBfQ==",
       "type": "package",
-      "path": "microsoft.orleans.core/2.3.5",
+      "path": "microsoft.orleans.core/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Core.dll",
         "lib/netstandard2.0/Orleans.Core.pdb",
         "lib/netstandard2.0/Orleans.Core.xml",
-        "microsoft.orleans.core.2.3.5.nupkg.sha512",
+        "microsoft.orleans.core.2.3.6.nupkg.sha512",
         "microsoft.orleans.core.nuspec"
       ]
     },
-    "Microsoft.Orleans.Core.Abstractions/2.3.5": {
-      "sha512": "uqoqIUs3wIF9DmIOw3jVMUxfHktjQMzEvSY7Glji+z/drnSW0J1xOthgXjsqEFMVsV0TqbzIOnAIvYgCEiLbaA==",
+    "Microsoft.Orleans.Core.Abstractions/2.3.6": {
+      "sha512": "Kv6D/InkwEHQEQ10UJhIjm04xslVL5dSXB6dw4TLAEWSQrkD4VODW7PBmMJQ9oS8VRMkMlc9w5aIXCgGJcgViQ==",
       "type": "package",
-      "path": "microsoft.orleans.core.abstractions/2.3.5",
+      "path": "microsoft.orleans.core.abstractions/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Core.Abstractions.dll",
         "lib/netstandard2.0/Orleans.Core.Abstractions.pdb",
         "lib/netstandard2.0/Orleans.Core.Abstractions.xml",
-        "microsoft.orleans.core.abstractions.2.3.5.nupkg.sha512",
+        "microsoft.orleans.core.abstractions.2.3.6.nupkg.sha512",
         "microsoft.orleans.core.abstractions.nuspec"
       ]
     },
-    "Microsoft.Orleans.Runtime.Abstractions/2.3.5": {
-      "sha512": "YQ33kKBCkj0LxPeLLMy6C75+TrcwUAA4OMS3AnEt8IDTJM/wMuWC3PJ/pNTAZRgnGlBiUKO/fy97TMyTTFL+GQ==",
+    "Microsoft.Orleans.Runtime.Abstractions/2.3.6": {
+      "sha512": "bmabk8vZVjBPrP6E6QFHcrKWSIiQ4sFe4j2lqDmpHhOKf8xnLxDOXCOyz3Xfzktc7esOO7lj/3oT2J+k4X4YeQ==",
       "type": "package",
-      "path": "microsoft.orleans.runtime.abstractions/2.3.5",
+      "path": "microsoft.orleans.runtime.abstractions/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.pdb",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.xml",
-        "microsoft.orleans.runtime.abstractions.2.3.5.nupkg.sha512",
+        "microsoft.orleans.runtime.abstractions.2.3.6.nupkg.sha512",
         "microsoft.orleans.runtime.abstractions.nuspec"
       ]
     },
@@ -2881,11 +2881,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2919,11 +2920,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6088,10 +6090,10 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "GrainInterfaces >= 1.0.0",
-      "Microsoft.Extensions.Logging.Abstractions >= 2.2.0",
-      "Microsoft.Orleans.CodeGenerator.MSBuild >= 2.3.5",
-      "Microsoft.Orleans.Core.Abstractions >= 2.3.5",
-      "Microsoft.Orleans.Runtime.Abstractions >= 2.3.5",
+      "Microsoft.Extensions.Logging.Abstractions >= 3.0.0-preview7.19362.4",
+      "Microsoft.Orleans.CodeGenerator.MSBuild >= 2.3.6",
+      "Microsoft.Orleans.Core.Abstractions >= 2.3.6",
+      "Microsoft.Orleans.Runtime.Abstractions >= 2.3.6",
       "Model >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -6125,12 +6127,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
         "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
@@ -6156,21 +6152,21 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[3.0.0-preview7.19362.4, )"
           },
           "Microsoft.Orleans.CodeGenerator.MSBuild": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.3.5, )"
+            "version": "[2.3.6, )"
           },
           "Microsoft.Orleans.Core.Abstractions": {
             "target": "Package",
-            "version": "[2.3.5, )"
+            "version": "[2.3.6, )"
           },
           "Microsoft.Orleans.Runtime.Abstractions": {
             "target": "Package",
-            "version": "[2.3.5, )"
+            "version": "[2.3.6, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -6180,7 +6176,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true

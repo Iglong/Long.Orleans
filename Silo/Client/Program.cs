@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Model;
+using Orleans.Hosting;
 
 namespace Client
 {
@@ -41,20 +42,25 @@ namespace Client
 
         private static async Task<IClusterClient> ConnectClient()
         {
+            var invariant = "System.Data.SqlClient"; // for Microsoft SQL Server
+            var connectionString = @"Data Source=122.112.163.117;Initial Catalog=Orleans;User Id=sa;Password=8E62-E21CBE62311F;Pooling=False;Max Pool Size=200;MultipleActiveResultSets=True";
             IClusterClient client;
-            client = new ClientBuilder()
-                .UseStaticClustering(new System.Net.IPEndPoint[] {
-                    new System.Net.IPEndPoint(IPAddress.Parse("192.168.3.17"),30000)
-                })
+            client = new ClientBuilder()               
+                .UseAdoNetClustering(options => { options.ConnectionString = connectionString; options.Invariant = invariant; })
                 .Configure<ClusterOptions>(options =>
                 {
                     options.ClusterId = "dev";
-                    options.ServiceId = "OrleansBasics";
+                    options.ServiceId = "BaseService";
                 })
                 .ConfigureLogging(logger => logger.AddConsole())
                 .Build();
-
-            await client.Connect();
+            try
+            {
+                await client.Connect();
+            }catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             Console.WriteLine("Client successfully connected to silo host \n");
             return client;
         }
@@ -65,10 +71,10 @@ namespace Client
             var friend = client.GetGrain<IChat>(1110);//           
             ChatCallback chatCallback = new ChatCallback();
 
-            var observer = await client.CreateObjectReference<IChatCallback>(chatCallback);
-            await friend.Subscribe(observer);
-            await friend.SayHello("Good morning, HelloGrain!");
-            Console.WriteLine("你说：\n\n{0}\n\n", "Good morning, HelloGrain!");
+            //var observer = await client.CreateObjectReference<IChatCallback>(chatCallback);
+            //await friend.Subscribe(observer);
+            //await friend.SayHello("Good morning, HelloGrain!");
+            //Console.WriteLine("你说：\n\n{0}\n\n", "Good morning, HelloGrain!");
             var gather = client.GetGrain<IGather>("dfg");
             var responseGather = await gather.HydrologyData(new Model.RequestModel<object> { Origin = new PassportModel() });
             Console.WriteLine($"{JsonConvert.SerializeObject(responseGather)}");

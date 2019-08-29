@@ -14,5 +14,6 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\DELL\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+    <PkgMicrosoft_Orleans_OrleansHost Condition=" '$(PkgMicrosoft_Orleans_OrleansHost)' == '' ">C:\Users\DELL\.nuget\packages\microsoft.orleans.orleanshost\1.5.8</PkgMicrosoft_Orleans_OrleansHost>
   </PropertyGroup>
 </Project>

@@ -6,4 +6,3 @@ D:\GitHub\wcOrleans\Silo\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs
 D:\GitHub\wcOrleans\Silo\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
 D:\GitHub\wcOrleans\Silo\Model\obj\Debug\netstandard2.0\Model.dll
 D:\GitHub\wcOrleans\Silo\Model\obj\Debug\netstandard2.0\Model.pdb
-D:\GitHub\wcOrleans\Silo\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache

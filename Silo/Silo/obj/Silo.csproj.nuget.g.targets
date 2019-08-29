@@ -4,6 +4,9 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.orleans.reminders.adonet\2.3.6\build\netstandard2.0\Microsoft.Orleans.Reminders.AdoNet.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.reminders.adonet\2.3.6\build\netstandard2.0\Microsoft.Orleans.Reminders.AdoNet.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.orleans.persistence.adonet\2.3.6\build\netstandard2.0\Microsoft.Orleans.Persistence.AdoNet.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.persistence.adonet\2.3.6\build\netstandard2.0\Microsoft.Orleans.Persistence.AdoNet.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.orleans.orleanshost\1.5.8\build\Microsoft.Orleans.OrleansHost.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.orleanshost\1.5.8\build\Microsoft.Orleans.OrleansHost.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.orleans.clustering.adonet\2.3.5\build\netstandard2.0\Microsoft.Orleans.Clustering.AdoNet.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.orleans.clustering.adonet\2.3.5\build\netstandard2.0\Microsoft.Orleans.Clustering.AdoNet.targets')" />
   </ImportGroup>
 </Project>

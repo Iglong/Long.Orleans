@@ -20,7 +20,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
+      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {
         "type": "package",
         "build": {
           "build/Microsoft.Orleans.CodeGenerator.MSBuild.targets": {}
@@ -29,7 +29,7 @@
           "buildMultiTargeting/Microsoft.Orleans.CodeGenerator.MSBuild.targets": {}
         }
       },
-      "Microsoft.Orleans.Core.Abstractions/2.3.5": {
+      "Microsoft.Orleans.Core.Abstractions/2.3.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.1",
@@ -274,16 +274,16 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
-      "sha512": "+Gp8Z2H/YoyM6XhC6b+KH31kWxjRi3AV0jH4sF+m0yU4K9ScADHs87Zqa1/9WIAucEDaovaymIAXavM6DezYxg==",
+    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.6": {
+      "sha512": "trTbkyaMO221UwoqUSPtM4AM+T3656ZfJr8TJYURZU+xnlP2u5/DOi5Lmz2ye7nh0PQOkx/NwfyvSESQXsEXZw==",
       "type": "package",
-      "path": "microsoft.orleans.codegenerator.msbuild/2.3.5",
+      "path": "microsoft.orleans.codegenerator.msbuild/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Microsoft.Orleans.CodeGenerator.MSBuild.targets",
         "buildMultiTargeting/Microsoft.Orleans.CodeGenerator.MSBuild.targets",
-        "microsoft.orleans.codegenerator.msbuild.2.3.5.nupkg.sha512",
+        "microsoft.orleans.codegenerator.msbuild.2.3.6.nupkg.sha512",
         "microsoft.orleans.codegenerator.msbuild.nuspec",
         "tasks/netcoreapp2.0/Microsoft.Build.Framework.dll",
         "tasks/netcoreapp2.0/Microsoft.Build.Tasks.Core.dll",
@@ -328,17 +328,17 @@
         "tasks/netcoreapp2.0/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll"
       ]
     },
-    "Microsoft.Orleans.Core.Abstractions/2.3.5": {
-      "sha512": "uqoqIUs3wIF9DmIOw3jVMUxfHktjQMzEvSY7Glji+z/drnSW0J1xOthgXjsqEFMVsV0TqbzIOnAIvYgCEiLbaA==",
+    "Microsoft.Orleans.Core.Abstractions/2.3.6": {
+      "sha512": "Kv6D/InkwEHQEQ10UJhIjm04xslVL5dSXB6dw4TLAEWSQrkD4VODW7PBmMJQ9oS8VRMkMlc9w5aIXCgGJcgViQ==",
       "type": "package",
-      "path": "microsoft.orleans.core.abstractions/2.3.5",
+      "path": "microsoft.orleans.core.abstractions/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Core.Abstractions.dll",
         "lib/netstandard2.0/Orleans.Core.Abstractions.pdb",
         "lib/netstandard2.0/Orleans.Core.Abstractions.xml",
-        "microsoft.orleans.core.abstractions.2.3.5.nupkg.sha512",
+        "microsoft.orleans.core.abstractions.2.3.6.nupkg.sha512",
         "microsoft.orleans.core.abstractions.nuspec"
       ]
     },
@@ -1340,8 +1340,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microsoft.Orleans.CodeGenerator.MSBuild >= 2.3.5",
-      "Microsoft.Orleans.Core.Abstractions >= 2.3.5",
+      "Microsoft.Orleans.CodeGenerator.MSBuild >= 2.3.6",
+      "Microsoft.Orleans.Core.Abstractions >= 2.3.6",
       "Model >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -1375,12 +1375,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
         "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
@@ -1405,11 +1399,11 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.3.5, )"
+            "version": "[2.3.6, )"
           },
           "Microsoft.Orleans.Core.Abstractions": {
             "target": "Package",
-            "version": "[2.3.5, )"
+            "version": "[2.3.6, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -1419,7 +1413,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true

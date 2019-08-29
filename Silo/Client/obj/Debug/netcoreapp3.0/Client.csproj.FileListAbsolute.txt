@@ -37,3 +37,10 @@ D:\GitHub\wcOrleans\Silo\Client\obj\Debug\netcoreapp3.0\Client.dll
 D:\GitHub\wcOrleans\Silo\Client\obj\Debug\netcoreapp3.0\Client.pdb
 D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\Model.dll
 D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\Model.pdb
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\Orleans.Clustering.AdoNet.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\wcOrleans\Silo\Client\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

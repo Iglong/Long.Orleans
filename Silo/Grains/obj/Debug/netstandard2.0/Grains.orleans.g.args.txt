@@ -21,9 +21,9 @@ Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencyinjection
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencymodel\2.0.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.fileproviders.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.hosting.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll
-Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.logging.abstractions\3.0.0-preview7.19362.4\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.logging\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll
-Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options.configurationextensions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.options.configurationextensions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll
 Reference:C:\Users\DELL\.nuget\packages\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
@@ -31,9 +31,9 @@ Reference:D:\GitHub\wcOrleans\Silo\Model\bin\Debug\netstandard2.0\Model.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
 Reference:C:\Users\DELL\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll
-Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.core.abstractions\2.3.5\lib\netstandard2.0\Orleans.Core.Abstractions.dll
-Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.core\2.3.5\lib\netstandard2.0\Orleans.Core.dll
-Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.runtime.abstractions\2.3.5\lib\netstandard2.0\Orleans.Runtime.Abstractions.dll
+Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.core.abstractions\2.3.6\lib\netstandard2.0\Orleans.Core.Abstractions.dll
+Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.core\2.3.6\lib\netstandard2.0\Orleans.Core.dll
+Reference:C:\Users\DELL\.nuget\packages\microsoft.orleans.runtime.abstractions\2.3.6\lib\netstandard2.0\Orleans.Runtime.Abstractions.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
 Reference:C:\Users\DELL\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
